@@ -1,9 +1,13 @@
 package com.example.demo.service;
 
-import com.example.demo.form.ContactForm;
+
+
+import com.example.demo.form.EditForm;
+
 
 public interface ContactService {
-
-    void saveContact(ContactForm contactForm);
-
+	
+	  
+    void updateContact(Long userId, EditForm editForm);
+   
 }
